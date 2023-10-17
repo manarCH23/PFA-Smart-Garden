@@ -1,3 +1,7 @@
+/*
+this is a part of the code where we can connect the esp32 to the server and send a data that will be visualized on the graphic-interface
+*/
+
 #include <HTTPClient.h>
 #include <WiFi.h>
 
