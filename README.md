@@ -6,4 +6,4 @@ wich will be connected via WIFI to the graphic interface that s made with pyQt6.
 The project is divided on 3 parts:
   *stm32-Sensors
   *stm32-Esp32-Connection
-  *Esp32-Graphic interface
+  *pyQt6-Interface
