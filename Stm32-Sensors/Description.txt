@@ -1,0 +1,13 @@
+STM32F407GTx board
+CubeMx Settings:
+RCC : activate the HSE-Crystal Ceramic Resonator - HCLK = 50Mhz
+Water-level-Sensor : ADC1-IN0 : Sampling 15 cycle
+Soil-humidity-Sensor : ADC2-IN1 : Sampling 15 cycle
+LEDs :  activate the board leds PD12-13-14-15
+DHT11:
+  * activate the TIM6 :
+    - Prescalar : 50-1
+    - Counter Period : 0xffff-1
+  * activate any ouput pin (PA6 in my settings)
+
+
